@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.4)  17 OCT 2021 12:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.4)  27 OCT 2021 22:42
 entering extended mode
 **./report.tex
 (report.tex
@@ -1198,7 +1198,7 @@ Package geometry Warning: `pdftex': not available in `\newgeometry'; skipped.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<inc/img/b_logo.jpg, id=19, 57.816pt x 65.3715pt>
+<inc/img/b_logo.jpg, id=15, 57.816pt x 65.3715pt>
 File: inc/img/b_logo.jpg Graphic file (type jpg)
 <use inc/img/b_logo.jpg>
 Package pdftex.def Info: inc/img/b_logo.jpg  used on input line 6.
@@ -1279,11 +1279,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--21
  []
 
 
-Overfull \hbox (51.92157pt too wide) in paragraph at lines 28--31
-\T2A/cmr/bx/n/12 Название $[]$ 
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 28--31
 
  []
@@ -1324,147 +1319,191 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--31
 o.jpg>])
 \openout2 = `02-intro.aux'.
 
- (02-intro.tex [2
+ (02-intro.tex) [2
 
 
 
 
-
-]) [3
 
 ]
 \openout2 = `30-impl.aux'.
 
  (30-impl.tex
-LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 
-8.
+Overfull \hbox (7.36714pt too wide) in paragraph at lines 2--2
+|\T2A/cmr/bx/n/24.88 Исследования рас-сло-е-ния ди-на-ми-че-ской па-
+ []
 
-(C:\Users\alena\AppData\Roaming\MiKTeX\tex/latex/cyrillic\t2acmss.fd
-File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-26.
-
-(C:\Program Files\MiKTeX\tex/latex/base\ts1cmss.fd
-File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [4
+<inc/img/ex1_1.jpg, id=36, 493.845pt x 311.44928pt>
+File: inc/img/ex1_1.jpg Graphic file (type jpg)
+<use inc/img/ex1_1.jpg>
+Package pdftex.def Info: inc/img/ex1_1.jpg  used on input line 12.
+(pdftex.def)             Requested size: 496.28526pt x 312.9803pt.
+[3
 
 
 
 
-] [5
+ <./inc/img/ex1_1.jpg>]
+<inc/img/ex1_2.jpg, id=45, 508.0409pt x 291.66107pt>
+File: inc/img/ex1_2.jpg Graphic file (type jpg)
+<use inc/img/ex1_2.jpg>
+Package pdftex.def Info: inc/img/ex1_2.jpg  used on input line 19.
+(pdftex.def)             Requested size: 545.1798pt x 312.9803pt.
 
-] [6
+Overfull \hbox (33.03017pt too wide) in paragraph at lines 19--19
+ [] 
+ []
 
-]
-<inc/img/task2.jpg, id=142, 394.47375pt x 247.35268pt>
-File: inc/img/task2.jpg Graphic file (type jpg)
-<use inc/img/task2.jpg>
-Package pdftex.def Info: inc/img/task2.jpg  used on input line 110.
-(pdftex.def)             Requested size: 499.15228pt x 312.9803pt.
- [7
 
- <./inc/img/task2.jpg>]
-<inc/img/task3.jpg, id=151, 552.34929pt x 375.97607pt>
-File: inc/img/task3.jpg Graphic file (type jpg)
-<use inc/img/task3.jpg>
-Package pdftex.def Info: inc/img/task3.jpg  used on input line 115.
-(pdftex.def)             Requested size: 459.80672pt x 312.9803pt.
- [8
+! Package inputenc Error: Unicode character  (U+0002)
+(inputenc)                not set up for use with LaTeX.
 
- <./inc/img/task3.jpg>]
-<inc/img/task4.jpg, id=158, 516.21428pt x 406.94893pt>
-File: inc/img/task4.jpg Graphic file (type jpg)
-<use inc/img/task4.jpg>
-Package pdftex.def Info: inc/img/task4.jpg  used on input line 120.
-(pdftex.def)             Requested size: 397.02148pt x 312.9803pt.
- [9
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 ...РµС‚ СЂР°Р·РјРµСЂСѓ Р»РёРЅРµР№РєРё РєСЌС€
+                                                  РїР°РјСЏС‚Рё РІРµСЂС…РЅРµР...
 
- <./inc/img/task4.jpg>] [10
+You may provide a definition with
+\DeclareUnicodeCharacter 
 
-] [11
+[4
 
-]
+ <./inc/img/ex1_2.jpg>]
+Overfull \hbox (3.58344pt too wide) in paragraph at lines 32--33
+\T2A/cmr/m/n/14.4 че-ство стра-ниц фи-зи-че-ской опе-ра-тив-ной па-мя-ти: С = О
+/(РС*Б*П)=O/(512*8*128) 
+ []
+
+[5]
+Overfull \hbox (14.67958pt too wide) in paragraph at lines 40--40
+|\T2A/cmr/bx/n/24.88 Сравнение эф-фек-тив-но-сти ссы-лоч-ных и век-
+ []
+
+<inc/img/ex2.jpg, id=55, 511.9125pt x 295.1025pt>
+File: inc/img/ex2.jpg Graphic file (type jpg)
+<use inc/img/ex2.jpg>
+Package pdftex.def Info: inc/img/ex2.jpg  used on input line 47.
+(pdftex.def)             Requested size: 542.93712pt x 312.9803pt.
+
+Overfull \hbox (30.78749pt too wide) in paragraph at lines 47--47
+ [] 
+ []
+
+[6
+
+ <./inc/img/ex2.jpg>] [7]
+Overfull \hbox (4.85959pt too wide) in paragraph at lines 63--63
+|\T2A/cmr/bx/n/24.88 Исследование эф-фек-тив-но-сти про-грамм-ной
+ []
+
+<inc/img/ex3.jpg, id=68, 489.11304pt x 291.66107pt>
+File: inc/img/ex3.jpg Graphic file (type jpg)
+<use inc/img/ex3.jpg>
+Package pdftex.def Info: inc/img/ex3.jpg  used on input line 73.
+(pdftex.def)             Requested size: 524.86829pt x 312.9803pt.
+
+Overfull \hbox (12.71866pt too wide) in paragraph at lines 73--73
+ [] 
+ []
+
+
+Overfull \hbox (6.2363pt too wide) in paragraph at lines 77--79
+[]\T2A/cmr/m/n/14.4 Результаты экс-пе-ри-мен-та: от-но-ше-ние вре-ме-ни по-сле-
+до-ва-тель-ной об-ра-бот-ки бло-
+ []
+
+[8
+
+ <./inc/img/ex3.jpg>] [9]
+<inc/img/ex4.jpg, id=80, 523.09714pt x 306.28714pt>
+File: inc/img/ex4.jpg Graphic file (type jpg)
+<use inc/img/ex4.jpg>
+Package pdftex.def Info: inc/img/ex4.jpg  used on input line 95.
+(pdftex.def)             Requested size: 534.53378pt x 312.9803pt.
+
+Overfull \hbox (22.38416pt too wide) in paragraph at lines 95--95
+ [] 
+ []
+
+[10
+
+ <./inc/img/ex4.jpg>] [11]
+
+! Package inputenc Error: Unicode character  (U+0002)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 ...РЅСЏ, СЂР°Р·РјРµСЂ Р»РёРЅРµР№РєРё РєСЌС€
+                                                  РїР°РјСЏС‚Рё РїРµСЂРІРѕРіР...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+<inc/img/ex5.jpg, id=92, 523.09714pt x 309.72858pt>
+File: inc/img/ex5.jpg Graphic file (type jpg)
+<use inc/img/ex5.jpg>
+Package pdftex.def Info: inc/img/ex5.jpg  used on input line 116.
+(pdftex.def)             Requested size: 528.6033pt x 312.9803pt.
+
+Overfull \hbox (16.45367pt too wide) in paragraph at lines 116--116
+ [] 
+ []
+
 [12
 
-]
-<inc/img/trassa1.jpg, id=250, 839.2784pt x 501.15804pt>
-File: inc/img/trassa1.jpg Graphic file (type jpg)
-<use inc/img/trassa1.jpg>
-Package pdftex.def Info: inc/img/trassa1.jpg  used on input line 222.
-(pdftex.def)             Requested size: 524.1379pt x 312.9803pt.
+ <./inc/img/ex5.jpg>] [13]
+<inc/img/ex6.jpg, id=105, 550.62857pt x 412.97144pt>
+File: inc/img/ex6.jpg Graphic file (type jpg)
+<use inc/img/ex6.jpg>
+Package pdftex.def Info: inc/img/ex6.jpg  used on input line 135.
+(pdftex.def)             Requested size: 417.3058pt x 312.9803pt.
+) [14
 
-Overfull \hbox (11.98827pt too wide) in paragraph at lines 222--222
- [] 
- []
-
-[13
-
- <./inc/img/trassa1.jpg>]
-<inc/img/forhash.jpg, id=258, 363.5009pt x 435.77089pt>
-File: inc/img/forhash.jpg Graphic file (type jpg)
-<use inc/img/forhash.jpg>
-Package pdftex.def Info: inc/img/forhash.jpg  used on input line 229.
-(pdftex.def)             Requested size: 261.0826pt x 312.9803pt.
- [14
-
- <./inc/img/forhash.jpg>] [15] [16]
-<inc/img/trassa2.jpg, id=313, 723.99054pt x 420.71465pt>
-File: inc/img/trassa2.jpg Graphic file (type jpg)
-<use inc/img/trassa2.jpg>
-Package pdftex.def Info: inc/img/trassa2.jpg  used on input line 321.
-(pdftex.def)             Requested size: 538.62793pt x 312.9803pt.
-
-Overfull \hbox (26.4783pt too wide) in paragraph at lines 321--321
- [] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[17
-
-] [18 <./inc/img/trassa2.jpg>])
+ <./inc/img/ex6.jpg>] [15]
 \openout2 = `50-conclusion.aux'.
 
  (50-conclusion.tex
-Overfull \hbox (0.34343pt too wide) in paragraph at lines 4--5
-[]\T2A/cmr/m/n/14.4 В ре-зуль-та-те вы-пол-не-ния ла-бо-ра-тор-ной ра-бо-ты бы-
-ли изу-че-ны прин-ци-пы функ-
+Overfull \hbox (2.44514pt too wide) in paragraph at lines 4--5
+\T2A/cmr/m/n/14.4 фек-тив-но-го ис-поль-зо-ва-ния под-си-сте-мы па-мя-ти со-вре
+-мен-ных уни-вер-саль-ных ЭВМ. 
  []
 
-) [19
-
+) [16
 
 
 
 
 ] (report.aux (00-title.aux) (02-intro.aux) (30-impl.aux)
 (50-conclusion.aux))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: BBA64CFDE9CCCFA272006C8E98BB93ED;341.
+(rerunfilecheck)             Checksum: 709BB2F36B94EB12237712F1EBF312FA;233.
  ) 
 Here is how much of TeX's memory you used:
- 37884 strings out of 478864
- 866255 string characters out of 2858518
- 1357266 words of memory out of 10000000
- 54896 multiletter control sequences out of 15000+600000
- 417215 words of font info for 53 fonts, out of 8000000 for 9000
+ 37151 strings out of 478864
+ 857331 string characters out of 2858518
+ 1277804 words of memory out of 10000000
+ 54379 multiletter control sequences out of 15000+600000
+ 415223 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 106i,11n,102p,947b,1900s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\alena\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasx12
-00.pk> <C:\Users\alena\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
-tcss1200.pk> <C:\Users\alena\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi
-600\lass1200.pk> <C:\Users\alena\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a
-/dpi600\larm1440.pk> <C:\Users\alena\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh
--t2a/dpi600\labx2488.pk> <C:\Users\alena\AppData\Local\MiKTeX\fonts/pk/ljfour/l
-h/lh-t2a/dpi600\larm1000.pk> <C:\Users\alena\AppData\Local\MiKTeX\fonts/pk/ljfo
-ur/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\alena\AppData\Local\MiKTeX\fonts/pk/
-ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\alena\AppData\Local\MiKTeX\fonts
-/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk>
-Output written on report.pdf (19 pages, 2474913 bytes).
+ 106i,11n,102p,1280b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\alena\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm14
+40.pk> <C:\Users\alena\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
+bx2488.pk> <C:\Users\alena\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi60
+0\larm1000.pk> <C:\Users\alena\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/d
+pi600\labx2074.pk> <C:\Users\alena\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t
+2a/dpi600\larm1200.pk> <C:\Users\alena\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/
+lh-t2a/dpi600\labx1200.pk>
+Output written on report.pdf (16 pages, 2082259 bytes).
 PDF statistics:
- 790 PDF objects out of 1000 (max. 8388607)
- 237 named destinations out of 1000 (max. 500000)
- 92 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 418 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
