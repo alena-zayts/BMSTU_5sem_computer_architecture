@@ -1,0 +1,125 @@
+\chapter{Работа с исходным проектом}
+
+%Функциональная схема разрабатываемой аппаратной системы
+%(аналогично рисунку 4)
+
+\section{Копии экранов моделирования исходного проекта VINC}
+
+На рисунке \ref{img:r1} приведена транзакция чтения данных вектора на шине AXI4 MM из DDR памяти (группы сигналов m00\_axi\_ar* и m00\_axi\_r*).
+
+\img{50mm}{r1}{Транзакция чтения данных}
+
+На рисунке \ref{img:w1} приведена транзакция записи результата инкремента данных на шине AXI4 MM (группы сигналов m00\_axi\_aw*, m00\_axi\_w* и m00\_axi\_b*).
+
+\img{80mm}{w1}{Транзакция записи результата инкремента}
+
+	
+Инкремент данных в модуле  rtl\_kernel\_wizard\_2\_example\_adder.v приведен на рисунке \ref{img:adder1}.
+
+\clearpage
+\img{60mm}{adder1}{Инкремент данных}
+
+
+\section{Линковка}
+
+На рисунке \ref{img:config} приведен конфигурационный файл линковки.
+
+\img{50mm}{config}{Конфигурационный файл линковки}
+
+
+%v++ -l -t hw -o /iu_home/iu7036/workspace/zayts/vinc.xclbin -f xilinx_u200_xdma_201830_2 /iu_home/iu7036/workspace/zayts/zayts_project_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_2/rtl_kernel_wizard_2.xo --config /iu_home/iu7036/workspace/zayts/zayts_project.cfg
+
+В приложении в листинге \ref{infof} приведено содержимое файла vinc.xclbin.info, а в листинге \ref{log1} - содержимое файла v++\_vinc.log.
+
+
+
+\chapter{Работа с измененным проектом}
+
+
+В соответствии с вариантом 6 ускоритель должен выполнять следующую функцию: $R[i] = A[i] \& 0xFEDCBA9876543210$.
+
+Измененялся код rtl\_kernel\_wizard\_2\_example\_adder.v. На рисунке \ref{img:code1} приведен момент записи константы 0xFEDCBA9876543210.
+
+\img{20mm}{code1}{Запись константы}
+
+Измененный код процедуры сложения привден на рисунке \ref{img:code2}
+
+\img{20mm}{code2}{Измененная процедура сложения}
+
+\section{Копии экранов моделирования измененного проекта VINC}
+
+На рисунке \ref{img:r2} приведена транзакция чтения данных вектора на шине AXI4 MM из DDR памяти (данные остались теми же).
+
+\img{50mm}{r2}{Транзакция чтения данных}
+
+На рисунке \ref{img:w3} приведена транзакция записи результата инкремента данных на шине AXI4 MM (а вот результат инкремента изменился).
+
+\img{50mm}{w3}{Транзакция записи результата}
+
+%v++ -l -t hw -o /iu_home/iu7036/workspace/zayts/vinc.xclbin -f xilinx_u200_xdma_201830_2 /iu_home/iu7036/workspace/zayts/zayts_project_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_2/rtl_kernel_wizard_2.xo --config /iu_home/iu7036/workspace/zayts/zayts_project2.cfg
+
+\section{Линковка}
+
+На рисунке \ref{img:config2} приведен конфигурационный файл линковки для измененного проекта. В соответсвии  с вариантом требовалось использовать регионы SLR1 и DDR[1].
+
+\img{50mm}{config2}{Конфигурационный файл линковки для измененного проекта}
+
+
+%v++ -l -t hw -o /iu_home/iu7036/workspace/zayts/vinc.xclbin -f xilinx_u200_xdma_201830_2 /iu_home/iu7036/workspace/zayts/zayts_project_kernels/src/vitis_rtl_kernel/rtl_kernel_wizard_2/rtl_kernel_wizard_2.xo --config /iu_home/iu7036/workspace/zayts/zayts_project.cfg
+
+Во приложении в листинге \ref{infof2} приведено содержимое файла vinc.xclbin.info для измененного проекта, а в листинге \ref{log2} - файла v++\_vinc.log для измененного проекта.
+
+
+
+
+
+\section{Работа с модулем host\_example.cpp}
+
+В листинге \ref{wow} приведен код измененного участка модуля host\_example.cpp.
+ 
+
+\begin{lstlisting}[caption=Код модифицированного модуля host\_example.cpp, label={wow}]
+    for (cl_uint i = 0; i < number_of_words; i++) {
+	if ((h_data[i] & 0xFEDCBA9876543210) != h_axi00_ptr0_output[i]) {
+		printf("ERROR in rtl_kernel_wizard_2::m00_axi - array index %d (host addr 0x%03x) - input=%d (0x%x), output=%d (0x%x)\n", i, i*4, h_data[i], h_data[i], h_axi00_ptr0_output[i], h_axi00_ptr0_output[i]);
+		check_status = 1;
+	}
+	//printf("i=%d, input=%d, output=%d, expected_output=%d\n", i,  h_axi00_ptr0_input[i], h_axi00_ptr0_output[i], h_data[i] & 0xFEDCBA9876543210);
+}
+\end{lstlisting}
+ 
+Так как с графическим интерфейсом программы Xilinx Vitis IDE автор отчета ранее не сталкивался, а он оказался довольно непонятным, для тестирования было решено  воспользоваться утилитой xgdb. На рисунке \ref{img:wow2} приведены результаты  первого запуска тестирования.
+ 
+\img{80mm}{wow2}{Результаты первого запуска тестирования}
+
+К сожалению, автор отчета забыл явным образом сохранить измененный файл rtl\_kernel\_wizard\_2\_example\_adder.v перед повторной линковкой, поэтому функция инкремента осталось той же. Чтобы повторно не выполнять линковку, было решено изменить модуль host\_example.cpp, код которого приведен в листинге \ref{wow3}.
+
+
+\begin{lstlisting}[caption=Код модифицированного модуля host\_example.cpp, label={wow3}]
+	    for (cl_uint i = 0; i < number_of_words; i++) {
+		if ((h_data[i] + 1) != h_axi00_ptr0_output[i]) {
+			printf("ERROR in rtl_kernel_wizard_2::m00_axi - array index %d (host addr 0x%03x) - input=%d (0x%x), output=%d (0x%x)\n", i, i*4, h_data[i], h_data[i], h_axi00_ptr0_output[i], h_axi00_ptr0_output[i]);
+			check_status = 1;
+		}
+		//printf("i=%d, input=%d, output=%d, expected_output=%d\n", i,  h_axi00_ptr0_input[i], h_axi00_ptr0_output[i], h_data[i] + 1);
+	}
+\end{lstlisting}
+
+На рисунке \ref{img:wow4} приведены результаты  второго запуска тестирования. Как видно, все тесты пройдены успешно.
+
+\img{80mm}{wow4}{Результаты второго запуска тестирования}
+
+
+%(в виде листинга вывода на консоль или в виде таблицы с результатами теста).
+
+%\chapter{Ответы на контрольные вопросы}
+
+%1. Назовите преимущества и недостатки XDMA и QDMA платформ.
+
+
+%2. Назовите последовательность действий, необходимых для инициализации ускорителя  со стороны хост-системы.
+
+%3. Какова процедура запуска задания на исполнения в ускорительном ядре VINC.
+
+%4. Опишите процесс линковки на основании содержимого файла v++_*.log.
+
