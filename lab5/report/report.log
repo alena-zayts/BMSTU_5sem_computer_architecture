@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.4)  13 DEC 2021 15:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.4)  13 DEC 2021 20:15
 entering extended mode
 **./report.tex
 (report.tex
@@ -1198,7 +1198,7 @@ Package geometry Warning: `pdftex': not available in `\newgeometry'; skipped.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<inc/img/b_logo.jpg, id=23, 57.816pt x 65.3715pt>
+<inc/img/b_logo.jpg, id=19, 57.816pt x 65.3715pt>
 File: inc/img/b_logo.jpg Graphic file (type jpg)
 <use inc/img/b_logo.jpg>
 Package pdftex.def Info: inc/img/b_logo.jpg  used on input line 6.
@@ -1341,13 +1341,7 @@ Overfull \hbox (24.89201pt too wide) in paragraph at lines 9--10
 
  (30-impl.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
-[3
-
-
-
-
-]
-<inc/img/1.jpg, id=51, 648.17157pt x 280.79906pt>
+<inc/img/1.jpg, id=41, 648.17157pt x 280.79906pt>
 File: inc/img/1.jpg Graphic file (type jpg)
 <use inc/img/1.jpg>
 Package pdftex.def Info: inc/img/1.jpg  used on input line 6.
@@ -1357,12 +1351,12 @@ Overfull \hbox (13.27197pt too wide) in paragraph at lines 6--6
  [] 
  []
 
-<inc/img/2.jpg, id=52, 640.64343pt x 321.45094pt>
+<inc/img/2.jpg, id=42, 640.64343pt x 321.45094pt>
 File: inc/img/2.jpg Graphic file (type jpg)
 <use inc/img/2.jpg>
 Package pdftex.def Info: inc/img/2.jpg  used on input line 7.
 (pdftex.def)             Requested size: 453.65764pt x 227.62204pt.
-<inc/img/3.jpg, id=53, 639.13782pt x 327.47343pt>
+<inc/img/3.jpg, id=43, 639.13782pt x 327.47343pt>
 File: inc/img/3.jpg Graphic file (type jpg)
 <use inc/img/3.jpg>
 Package pdftex.def Info: inc/img/3.jpg  used on input line 8.
@@ -1370,7 +1364,7 @@ Package pdftex.def Info: inc/img/3.jpg  used on input line 8.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<inc/img/4.jpg, id=54, 638.385pt x 356.83313pt>
+<inc/img/4.jpg, id=44, 638.385pt x 356.83313pt>
 File: inc/img/4.jpg Graphic file (type jpg)
 <use inc/img/4.jpg>
 Package pdftex.def Info: inc/img/4.jpg  used on input line 9.
@@ -1378,23 +1372,26 @@ Package pdftex.def Info: inc/img/4.jpg  used on input line 9.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4
+[3
 
- <./inc/img/1.jpg> <./inc/img/2.jpg>] [5 <./inc/img/3.jpg> <./inc/img/4.jpg>]
-<inc/img/7.jpg, id=66, 730.22812pt x 386.94562pt>
+
+
+
+ <./inc/img/1.jpg> <./inc/img/2.jpg>] [4 <./inc/img/3.jpg> <./inc/img/4.jpg>]
+<inc/img/7.jpg, id=58, 730.22812pt x 386.94562pt>
 File: inc/img/7.jpg Graphic file (type jpg)
 <use inc/img/7.jpg>
 Package pdftex.def Info: inc/img/7.jpg  used on input line 14.
 (pdftex.def)             Requested size: 429.56062pt x 227.62204pt.
-[6
+[5
 
  <./inc/img/7.jpg>]
-<inc/img/8.jpg, id=73, 1014.03844pt x 832.61063pt>
+<inc/img/8.jpg, id=65, 1014.03844pt x 832.61063pt>
 File: inc/img/8.jpg Graphic file (type jpg)
 <use inc/img/8.jpg>
 Package pdftex.def Info: inc/img/8.jpg  used on input line 20.
 (pdftex.def)             Requested size: 415.83582pt x 341.43306pt.
- [7
+ [6
 
  <./inc/img/8.jpg>]
 Overfull \hbox (31.16566pt too wide) in paragraph at lines 24--25
@@ -1402,12 +1399,12 @@ Overfull \hbox (31.16566pt too wide) in paragraph at lines 24--25
 -бо-ты при-ло-же-ния в ре-жи-ме Emulation-
  []
 
-<inc/img/9.jpg, id=82, 1020.81375pt x 733.23938pt>
+<inc/img/9.jpg, id=73, 1020.81375pt x 733.23938pt>
 File: inc/img/9.jpg Graphic file (type jpg)
 <use inc/img/9.jpg>
 Package pdftex.def Info: inc/img/9.jpg  used on input line 26.
 (pdftex.def)             Requested size: 475.34328pt x 341.43306pt.
-<inc/img/10.jpg, id=83, 998.9822pt x 709.14937pt>
+<inc/img/10.jpg, id=74, 998.9822pt x 709.14937pt>
 File: inc/img/10.jpg Graphic file (type jpg)
 <use inc/img/10.jpg>
 Package pdftex.def Info: inc/img/10.jpg  used on input line 28.
@@ -1415,15 +1412,15 @@ Package pdftex.def Info: inc/img/10.jpg  used on input line 28.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8
+[7
 
- <./inc/img/9.jpg>] [9 <./inc/img/10.jpg>]
-<inc/img/12.jpg, id=95, 1016.29688pt x 709.90219pt>
+ <./inc/img/9.jpg>] [8 <./inc/img/10.jpg>]
+<inc/img/12.jpg, id=87, 1016.29688pt x 709.90219pt>
 File: inc/img/12.jpg Graphic file (type jpg)
 <use inc/img/12.jpg>
 Package pdftex.def Info: inc/img/12.jpg  used on input line 35.
 (pdftex.def)             Requested size: 488.80943pt x 341.43306pt.
- [10
+ [9
 
  <./inc/img/12.jpg>]
 Overfull \hbox (2.8043pt too wide) in paragraph at lines 39--40
@@ -1431,7 +1428,7 @@ Overfull \hbox (2.8043pt too wide) in paragraph at lines 39--40
 ри-ло-же-ния в ре-жи-ме Hardware. 
  []
 
-<inc/img/13.jpg, id=102, 633.86812pt x 420.06938pt>
+<inc/img/13.jpg, id=94, 633.86812pt x 420.06938pt>
 File: inc/img/13.jpg Graphic file (type jpg)
 <use inc/img/13.jpg>
 Package pdftex.def Info: inc/img/13.jpg  used on input line 41.
@@ -1441,91 +1438,90 @@ Overfull \hbox (3.0604pt too wide) in paragraph at lines 41--41
  [] 
  []
 
-[11
+[10
 
  <./inc/img/13.jpg>]
-<inc/img/14.jpg, id=109, 1014.79124pt x 759.58781pt>
+<inc/img/14.jpg, id=101, 1014.79124pt x 759.58781pt>
 File: inc/img/14.jpg Graphic file (type jpg)
 <use inc/img/14.jpg>
 Package pdftex.def Info: inc/img/14.jpg  used on input line 47.
 (pdftex.def)             Requested size: 456.15634pt x 341.43306pt.
- [12
+ [11
 
  <./inc/img/14.jpg>]
-<inc/img/16.jpg, id=116, 1009.52156pt x 786.68906pt>
+<inc/img/16.jpg, id=108, 1009.52156pt x 786.68906pt>
 File: inc/img/16.jpg Graphic file (type jpg)
 <use inc/img/16.jpg>
 Package pdftex.def Info: inc/img/16.jpg  used on input line 53.
 (pdftex.def)             Requested size: 438.15248pt x 341.43306pt.
- [13
+ [12
 
  <./inc/img/16.jpg>]
-<inc/img/17.jpg, id=124, 1016.29688pt x 819.06pt>
+<inc/img/17.jpg, id=115, 1016.29688pt x 819.06pt>
 File: inc/img/17.jpg Graphic file (type jpg)
 <use inc/img/17.jpg>
 Package pdftex.def Info: inc/img/17.jpg  used on input line 58.
 (pdftex.def)             Requested size: 423.66277pt x 341.43306pt.
 
-[14
+[13
 
  <./inc/img/17.jpg>]
-<inc/img/18.jpg, id=132, 1011.02719pt x 312.41719pt>
+<inc/img/18.jpg, id=124, 1011.02719pt x 312.41719pt>
 File: inc/img/18.jpg Graphic file (type jpg)
 <use inc/img/18.jpg>
 Package pdftex.def Info: inc/img/18.jpg  used on input line 64.
 (pdftex.def)             Requested size: 460.38835pt x 142.26378pt.
-<inc/img/19.jpg, id=133, 1008.01593pt x 293.59688pt>
+<inc/img/19.jpg, id=125, 1008.01593pt x 293.59688pt>
 File: inc/img/19.jpg Graphic file (type jpg)
 <use inc/img/19.jpg>
 Package pdftex.def Info: inc/img/19.jpg  used on input line 66.
 (pdftex.def)             Requested size: 488.44109pt x 142.26378pt.
- [15
+ [14
 
  <./inc/img/18.jpg> <./inc/img/19.jpg>]
-<inc/img/20.png, id=142, 1017.8025pt x 416.30531pt>
+<inc/img/20.png, id=134, 1017.8025pt x 416.30531pt>
 File: inc/img/20.png Graphic file (type png)
 <use inc/img/20.png>
 Package pdftex.def Info: inc/img/20.png  used on input line 73.
 (pdftex.def)             Requested size: 486.94003pt x 199.16928pt.
-<inc/img/21.jpg, id=144, 1014.79124pt x 415.5525pt>
+<inc/img/21.jpg, id=136, 1014.79124pt x 415.5525pt>
 File: inc/img/21.jpg Graphic file (type jpg)
 <use inc/img/21.jpg>
 Package pdftex.def Info: inc/img/21.jpg  used on input line 75.
 (pdftex.def)             Requested size: 486.38199pt x 199.16928pt.
- [16
+ [15
 
  <./inc/img/20.png> <./inc/img/21.jpg>]
-<inc/img/22.jpg, id=154, 1020.06094pt x 567.62062pt>
-File: inc/img/22.jpg Graphic file (type jpg)
-<use inc/img/22.jpg>
-Package pdftex.def Info: inc/img/22.jpg  used on input line 81.
-(pdftex.def)             Requested size: 357.92944pt x 199.16928pt.
-<inc/img/23.jpg, id=155, 1016.29688pt x 599.23875pt>
-File: inc/img/23.jpg Graphic file (type jpg)
-<use inc/img/23.jpg>
-Package pdftex.def Info: inc/img/23.jpg  used on input line 83.
-(pdftex.def)             Requested size: 337.78265pt x 199.16928pt.
- [17
-
- <./inc/img/22.jpg> <./inc/img/23.jpg>]
-<inc/img/24.jpg, id=164, 1012.5328pt x 722.7pt>
+<inc/img/24.jpg, id=146, 1012.5328pt x 722.7pt>
 File: inc/img/24.jpg Graphic file (type jpg)
 <use inc/img/24.jpg>
-Package pdftex.def Info: inc/img/24.jpg  used on input line 89.
-(pdftex.def)             Requested size: 318.90317pt x 227.62204pt.
-<inc/img/25.jpg, id=165, 1019.30812pt x 746.03719pt>
+Package pdftex.def Info: inc/img/24.jpg  used on input line 81.
+(pdftex.def)             Requested size: 398.64055pt x 284.52756pt.
+<inc/img/25.jpg, id=147, 1019.30812pt x 746.03719pt>
 File: inc/img/25.jpg Graphic file (type jpg)
 <use inc/img/25.jpg>
-Package pdftex.def Info: inc/img/25.jpg  used on input line 91.
-(pdftex.def)             Requested size: 310.98962pt x 227.62204pt.
+Package pdftex.def Info: inc/img/25.jpg  used on input line 83.
+(pdftex.def)             Requested size: 388.74092pt x 284.52756pt.
 
-Overfull \hbox (15.19441pt too wide) in paragraph at lines 97--97
- |[]\T2A/cmr/bx/n/20.74 Копии экра-нов мо-де-ли-ро-ва-ния ис-ход-но-го про-
- []
 
-) [18
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
- <./inc/img/24.jpg> <./inc/img/25.jpg>] [19]
+[16
+
+ <./inc/img/24.jpg>] [17 <./inc/img/25.jpg>]
+<inc/img/22.jpg, id=162, 1020.06094pt x 567.62062pt>
+File: inc/img/22.jpg Graphic file (type jpg)
+<use inc/img/22.jpg>
+Package pdftex.def Info: inc/img/22.jpg  used on input line 89.
+(pdftex.def)             Requested size: 460.20612pt x 256.0748pt.
+<inc/img/23.jpg, id=163, 1016.29688pt x 599.23875pt>
+File: inc/img/23.jpg Graphic file (type jpg)
+<use inc/img/23.jpg>
+Package pdftex.def Info: inc/img/23.jpg  used on input line 91.
+(pdftex.def)             Requested size: 434.30086pt x 256.0748pt.
+ [18
+
+ <./inc/img/22.jpg> <./inc/img/23.jpg>]) [19]
 \openout2 = `50-conclusion.aux'.
 
  (50-conclusion.tex) [20
@@ -1533,19 +1529,19 @@ Overfull \hbox (15.19441pt too wide) in paragraph at lines 97--97
 
 
 
-]
-(report.aux (00-title.aux) (02-intro.aux) (30-impl.aux) (50-conclusion.aux))
+] (report.aux (00-title.aux)
+(02-intro.aux) (30-impl.aux) (50-conclusion.aux))
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 2B763D15C5514B7B6D8E5453A6E67D5A;862.
+(rerunfilecheck)             Checksum: DB83C960301D5358D605DD59A2E5FB2B;420.
  ) 
 Here is how much of TeX's memory you used:
- 37363 strings out of 478864
- 860699 string characters out of 2858518
- 1280513 words of memory out of 10000000
- 54564 multiletter control sequences out of 15000+600000
+ 37357 strings out of 478864
+ 860626 string characters out of 2858518
+ 1280509 words of memory out of 10000000
+ 54559 multiletter control sequences out of 15000+600000
  415223 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 106i,11n,102p,762b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 106i,11n,102p,765b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\alena\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm14
 40.pk> <C:\Users\alena\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
 bx2488.pk> <C:\Users\alena\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi60
@@ -1553,9 +1549,9 @@ bx2488.pk> <C:\Users\alena\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi60
 pi600\labx2074.pk> <C:\Users\alena\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t
 2a/dpi600\larm1200.pk> <C:\Users\alena\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/
 lh-t2a/dpi600\labx1200.pk>
-Output written on report.pdf (20 pages, 3356877 bytes).
+Output written on report.pdf (20 pages, 3350576 bytes).
 PDF statistics:
- 499 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 500000)
- 175 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 480 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 167 words of extra memory for PDF output out of 10000 (max. 10000000)
 
